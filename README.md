@@ -11,8 +11,8 @@ int main() {
 
   std::cout << Random::Instance().randomInt() std::endl;
   
-  if( Random::Instance().probability( 30 ) ) {
-    std::cout << "Hello, world." << std::endl;
+  if( Random::Instance().probability( 10 ) ) {
+    std::cout << "Hello, world. You are lucky!" << std::endl;
   }
   
   return 0;
